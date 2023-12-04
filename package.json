@@ -1,0 +1,30 @@
+{
+  "name": "@shamigondal/csv-uploader",
+  "version": "1.0.1",
+  "description": "Takes the filepath table name columns names and your db file path that contains you configuration of ms sql and upload the file to ms sql table",
+  "main": "csvUploader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShamiGondal/csv-uploader.git"
+  },
+  "keywords": [
+    "csv",
+    "uploader",
+    "pakage",
+    "faker"
+  ],
+  "author": "Ehtisham Ahmed Gondal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShamiGondal/csv-uploader/issues"
+  },
+  "homepage": "https://github.com/ShamiGondal/csv-uploader#readme",
+  "dependencies": {
+    "fast-csv": "^4.3.6",
+    "fs": "^0.0.1-security",
+    "mssql": "^10.0.1"
+  }
+}
